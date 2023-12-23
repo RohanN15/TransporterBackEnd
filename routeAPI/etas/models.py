@@ -6,3 +6,4 @@ class ETAS(models.Model):
     start_text = models.CharField(max_length=100, blank=True)
     end_text = models.CharField(max_length=100, blank=True)
     time_text = models.CharField(max_length=100, blank=True)
+    method_text = models.CharField(max_length=100, blank=True)

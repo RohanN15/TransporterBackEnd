@@ -1,4 +1,4 @@
-#!/Users/rohan/Desktop/AppDevBootcamp/AppDevPersonalProjectBackend/PythonBackend/djangoComponent/routeAPI/bin/python3
+#!/Users/rohan/Desktop/djangoComponent/routeAPI/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'future==0.18.3','console_scripts','pasteurize'
 import re
 import sys
