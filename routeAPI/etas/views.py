@@ -19,7 +19,7 @@ class AppDevClubReviewsView(APIView):
         for eta in ETAS.objects.filter():
             etas.append(eta.eta_text)
             methods.append(eta.method_text)
-            routes.append(eta.start_text + " -> " + eta.end_text + " @ " + eta.time_text)
+            routes.append(eta.start_text + " -> " + eta.end_text + " @ " + eta.time_text + " - " + eta.method_text)
         return Response({"eta": etas, "route": routes, "time": times, "method": methods})
 
 class CreateAppDevClubReview(APIView):
